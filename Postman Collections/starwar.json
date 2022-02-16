@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "/test",
-      "_postman_id": "3a7eddd2-718b-48ff-8cb2-6a6cc0829adc",
+      "id": "3a7eddd2-718b-48ff-8cb2-6a6cc0829adc",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -75,6 +75,19 @@
           "body": "{\n    \"name\": \"Luke Skywalker\",\n    \"height\": \"172\",\n    \"mass\": \"77\",\n    \"hair_color\": \"blond\",\n    \"skin_color\": \"fair\",\n    \"eye_color\": \"blue\",\n    \"birth_year\": \"19BBY\",\n    \"gender\": \"male\",\n    \"homeworld\": \"https://swapi.dev/api/planets/1/\",\n    \"films\": [\n        \"https://swapi.dev/api/films/1/\",\n        \"https://swapi.dev/api/films/2/\",\n        \"https://swapi.dev/api/films/3/\",\n        \"https://swapi.dev/api/films/6/\"\n    ],\n    \"species\": [],\n    \"vehicles\": [\n        \"https://swapi.dev/api/vehicles/14/\",\n        \"https://swapi.dev/api/vehicles/30/\"\n    ],\n    \"starships\": [\n        \"https://swapi.dev/api/starships/12/\",\n        \"https://swapi.dev/api/starships/22/\"\n    ],\n    \"created\": \"2014-12-09T13:50:51.644000Z\",\n    \"edited\": \"2014-12-20T21:17:56.891000Z\",\n    \"url\": \"https://swapi.dev/api/people/1/\"\n}"
         }
       ]
+    },
+    {
+      "name": "user",
+      "id": "7d53583f-bc4c-4299-bd6e-5a4d52140f13",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{url}}/users/1"
+      },
+      "response": []
     }
   ]
 }
