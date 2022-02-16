@@ -1,0 +1,106 @@
+{
+  "info": {
+    "_postman_id": "64dce2dd-4596-49a6-9568-61d5275a4d85",
+    "name": "starwar",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "test",
+      "_postman_id": "3a7eddd2-718b-48ff-8cb2-6a6cc0829adc",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{url}}/test"
+      },
+      "response": [
+        {
+          "id": "3f09a83a-41ff-40d8-b99c-8798e75ce55d",
+          "name": "https://swapi.dev/api/people/1/ Copy",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": "{{url}}/test"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Server",
+              "value": "nginx/1.16.1"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 29 Dec 2021 09:55:54 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Vary",
+              "value": "Accept, Cookie"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "ETag",
+              "value": "\"ee398610435c328f4d0a4e1b0d2f7bbc\""
+            },
+            {
+              "key": "Allow",
+              "value": "GET, HEAD, OPTIONS"
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=15768000"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"name\": \"Luke Skywalker\",\n    \"height\": \"172\",\n    \"mass\": \"77\",\n    \"hair_color\": \"blond\",\n    \"skin_color\": \"fair\",\n    \"eye_color\": \"blue\",\n    \"birth_year\": \"19BBY\",\n    \"gender\": \"male\",\n    \"homeworld\": \"https://swapi.dev/api/planets/1/\",\n    \"films\": [\n        \"https://swapi.dev/api/films/1/\",\n        \"https://swapi.dev/api/films/2/\",\n        \"https://swapi.dev/api/films/3/\",\n        \"https://swapi.dev/api/films/6/\"\n    ],\n    \"species\": [],\n    \"vehicles\": [\n        \"https://swapi.dev/api/vehicles/14/\",\n        \"https://swapi.dev/api/vehicles/30/\"\n    ],\n    \"starships\": [\n        \"https://swapi.dev/api/starships/12/\",\n        \"https://swapi.dev/api/starships/22/\"\n    ],\n    \"created\": \"2014-12-09T13:50:51.644000Z\",\n    \"edited\": \"2014-12-20T21:17:56.891000Z\",\n    \"url\": \"https://swapi.dev/api/people/1/\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "user",
+      "_postman_id": "7d53583f-bc4c-4299-bd6e-5a4d52140f13",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{url}}/users/1"
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "_postman_id": "5ac84abf-94ae-4082-80b2-35c22a59698b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    }
+  ]
+}
