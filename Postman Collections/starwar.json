@@ -6,7 +6,7 @@
   },
   "item": [
     {
-      "name": "/test",
+      "name": "test",
       "id": "3a7eddd2-718b-48ff-8cb2-6a6cc0829adc",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
