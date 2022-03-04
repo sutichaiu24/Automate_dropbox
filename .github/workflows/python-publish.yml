@@ -1,4 +1,4 @@
-name: "Compliance"
+name: "master-reuseable"
 
 on: 
     workflow_dispatch:
